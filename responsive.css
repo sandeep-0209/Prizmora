@@ -1,0 +1,316 @@
+/*        mobile responsive         */
+
+@media(max-width:768px){
+    header .navbar ul li{
+        padding: 15px;
+        margin: 10px;
+    }
+    header .navbar .toggle{
+        display: block;
+    }
+    header .navbar ul.active{
+        display: block;
+    }
+    header .navbar{
+        position: relative;
+    }
+    header .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    margin-top: 57px;
+    background: white;
+    border-radius: 5px;
+    margin-left: -8px;
+    display: none;
+    }
+    header .navbar .toggle{
+        display: block;
+    }
+    .right-header .sociallinks, .search-bar{
+        display: none;
+        border-right: none;
+        position: absolute;
+        top: 64px;
+    }
+    .click-link .toggle-link-cross{
+        display: none;
+        font-size: 27px;
+    }
+    .right-header .sociallinks.active{
+        display: block;
+    }
+    .right-header .sociallinks ul {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    margin-left: -25px;
+    margin-top: 12px;
+    border-radius: 5px;
+    }
+    .right-header .sociallinks ul li {
+    margin: 8px;
+    padding: 5px;
+    }
+    .click-link {
+    flex-direction: column-reverse;
+    position: relative;
+    }
+    .search-bar{
+        display: none;
+    }
+    .right-header .click-link{
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
+    header{
+        padding: 10px 0;
+    }
+    .logo img{
+        max-width: 72%;
+        margin-left: 10px;
+    }
+    .banner-section{
+        height: 50vh;
+    }
+    .explore-section h2{
+        font-size: 27px;
+    }
+    .explore-section .product-list{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .explore-section .product-list .product-item{
+        max-width: 100%;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .product-list .product-item .product-img img{
+        width: 272px;
+    }
+    .explore-section .product-list .product-item .product-name{
+        line-height: 2.5;
+    }
+    .explore-section .product-list .product-item .product-price{
+        margin-bottom: 20px;
+    }
+    .whyChooseUs{
+        padding: 50px 0;
+    }
+    .reason-list{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reason-list .reason-box{
+        width: 100%;
+    }
+    .vision-section {
+    padding: 50px 0;
+    }
+    .vision-section .wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .vision-section .left-vision-sec{
+        max-width: 100%;
+    }
+    .vision-section .left-vision-sec h2{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .vision-section .left-vision-sec p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .vision-section .left-vision-sec ul li{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .-right-vision-sec img{
+        width: 100%;
+        height: auto;;
+    }
+    .fashion-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fashion-section .fashion-box.pink{
+        padding: 30px 10px;
+    }
+    .news-section{
+        padding: 65px 0;
+    }
+    .news-section h2 {
+    font-size: 28px;
+    }
+    .news-section form .submit-form{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .news-section form{
+        width: 100%;
+    }
+    .news-section form .submit-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .submit-form .sendbtn{
+        padding: 15px 30px;
+        width: 45%;
+    }
+    .submit-form .email-box{
+        width: 100%;
+    }
+    footer .wrapper{
+        flex-direction: column;
+        max-width: 95%;
+    }
+    footer .wrapper ul{
+        width: 100%;
+    }
+    footer .wrapper ul li{
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+    footer{
+        padding: 20px 0;
+    }
+    footer .wrapper p{
+        font-size: 13px;
+    }
+
+
+
+
+    /*    About section responsive     */
+    .about-section {
+    margin: 30px 0;
+    }
+    .about-details {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    }
+    .about-left {
+    width: 100%;
+    }
+    .about-left h2 {
+    font-size: 35px;
+    text-align: center;
+    }
+    .about-left p {
+    font-size: 15px;
+    line-height: 1.4;
+    }
+    .about-section {
+    margin: 30px 0;
+    }
+    .wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+    }
+    .about-section .about-details::before{
+    display: none;
+    }
+    .about-left {
+    width: 100%;
+    }
+
+    /*      blog section      */
+    .blog-section {
+    padding: 0 0;
+    }
+    .blog-section h2 {
+    padding: 23px 0;
+    }
+    .blog-list{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .blog-list .blog-box{
+        width: 100%;
+    }
+
+
+    /*     contact section    */
+    .contact-section .contact-info{
+        flex-direction: column;
+    }
+    .contact-section .contact-info .right-contact {
+    width: 95%;
+    }
+
+
+
+}
+
+
+
+
+
+/*             tablet responsive            */
+
+
+
+@media(min-width:768px) and (max-width:1023px){
+    .wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+    }
+    header .navbar ul li {
+    margin-right: 20px;
+    font-size: 17px;
+    }
+    .right-header .sociallinks {
+    margin-right: 10px;
+    }
+    .whyChooseUs .reason-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .reason-list .reason-box {
+    width: 45%;
+    }
+    .vision-section .left-vision-sec ul li{
+        line-height: 1.5;
+    }
+    footer .wrapper ul{
+        width: 48%;
+    }
+    footer p{
+        font-size: 15px;
+    }
+
+    /*       about section responsive       */
+
+    .about-section .about-details::before{
+    height: 300px;
+    width: 323px;
+    right: -100px;
+    }
+}
+
+
+
+/*                   laptop responsive             */
+
+@media(min-width:1024px) and (max-width:1199px){
+    .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+   }
+   footer .wrapper ul{
+    width: 50%;
+   }
+}
+
+
+@media(min-width:1200px){
+    footer .wrapper ul{
+        width: 45%;
+    }
+}
