@@ -47,5 +47,10 @@ Cross Browser Compatible
 
 ---
 
+## Run project On 
+(file:///C:/Users/ADMIN/Desktop/Frontend%20Project/PROJECTS/Prizmora/index.html)
+
+---
+
 👨‍💻 Author
 Sandeep Keshari
